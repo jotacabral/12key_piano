@@ -1,0 +1,47 @@
+body {
+  background-color: hsl(220, 60%, 6%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#keyboard {
+  width: 95vw;
+  height: 65vh;
+  position: relative;
+}
+
+.white {
+  border: 1px solid white;
+  max-height: 100%;
+  min-height: 80%;
+  width: 12.5%;
+}
+
+.white:hover {
+  background-color: rgb(156, 156, 156);
+}
+
+.white:active {
+  background-color: rgb(126, 126, 126);
+}
+
+.black {
+  position: absolute;
+  margin-left: -4.8%;
+  min-height: 47%;
+  background-color: black;
+  width: 9%;
+}
+
+
+.black:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.black:active {
+  background-color: rgb(49, 49, 49);
+}
